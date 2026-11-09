@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="qcjARRhzBEwlZ" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:langstring>Triage</lom:langstring>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicallearningtime>
+				<lom:datetime>01:00:00</lom:datetime>
+				</lom:typicallearningtime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="triage_organization">
+		<organization identifier="triage_organization">
+
+			<title>Triage</title>
+			<item identifier="D85AC391-51FF-47BB-961C-1CA3B7517EDC" identifierref="resource">
+				<title>Untitled Quiz</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/html5.png"/>
+<file href="res/data/images/16f3-293c-9052-be8e.png"/>
+<file href="res/data/images/img-0bb7d347a0d607a91c4f0716f05427b58d9e0c36.jpg"/>
+<file href="res/data/images/img-30f1c59d83bd376655c9e9992e85b3ad40324dd2.jpg"/>
+<file href="res/data/images/img-33d4db983dc276d2784c062cfad814a2b47a718b.jpg"/>
+<file href="res/data/images/img-5bc8d5cbd5bb73f9e88dc7642a54dfb70596af8e.jpg"/>
+<file href="res/data/images/img-a011cdb91a3c95ddf329372c4509b6401cd7afc8.jpg"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>
